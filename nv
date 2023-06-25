@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+dir=$(cat /home/simon/.current_dir)
+cd "$dir"
+# xdotool key super+s
+/home/simon/.cargo/bin/neovide --multigrid 

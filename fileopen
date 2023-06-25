@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+
+
+# rest of your script...
+# Specify the full path to 'cat'
+dir=$(/bin/cat /home/simon/.current_dir)
+
+# xdotool key super+s
+# Specify the full path to 'nautilus'
+/usr/bin/nautilus "$dir"
